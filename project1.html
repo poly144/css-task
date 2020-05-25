@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Cards</title>
+
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- personal css -->
+    <link rel="stylesheet" href="stylesheets/custom.css" />
+  </head>
+  <body>
+    <h1>LC ACADEMY</h1>
+    <h2>WORKERS PROFILE PAGE</h2>
+                                                  
+    <div class="wrapper">
+      <!-- navigation bar -->
+      <nav class="nav">
+        <!-- A grey horizontal navbar that becomes vertical on small screens -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="responsive">
+          <a class="navbar-brand">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.newsweek.com/newsfeed">News Feed</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Admin</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </nav>
+      <main class="main">
+        
+        <div class="card">
+          <a href="#worker1">
+            <img
+              src="https://i.pravatar.cc/150?img=17"
+              class="card-img-top"
+              data-toggle="modal"
+              data-target="#worker1"
+          /></a>
+          <div class="card-body">
+            <h5 class="card-title">Position</h5>
+            <p class="card-text">
+              FOUNDER
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Name: Brian</li>
+            <li class="list-group-item">Surname:  Edison</li>
+            <li class="list-group-item">Email:  tommy23@gmail.com</li>
+            <li class="list-group-item">cellphone:  (+27) 73 124 7786</li>
+            <li class="list-group-item">landline: (+11) 19 241 3319</li>
+          </ul>
+            <button 
+            type="button" class=" btn-primary"
+            data-toggle="modal"
+            data-target="#worker1">
+            more info
+          </button>
+            <button 
+            type="button" class=" btn-primary"
+            data-toggle="modal"
+            data-target="#Delete">
+            delete
+          </button>
+        </div>
+        <div class="card">
+          <a href="#worker2">
+            <img
+              src="https://i.pravatar.cc/150?img=47"
+              class="card-img-top"
+              data-toggle="modal"
+              data-target="#worker2"
+          /></a>
+          <div class="card-body">
+            <h5 class="card-title">Position</h5>
+            <p class="card-text">
+              CEO
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Name: Brittany M</li>
+            <li class="list-group-item">Surname:  Underwood</li>
+            <li class="list-group-item">Email: bestceo@gmail.com</li>
+            <li class="list-group-item">cellphone:  (+27) 72 019 7712</li>
+            <li class="list-group-item">landline: (+11) 19 261 2180</li>
+          </ul>
+          
+            <button 
+            type="button" class=" btn-primary"
+            data-toggle="modal"
+            data-target="#worker2">
+            more info
+          </button>
+            <button 
+            type="button" class=" btn-primary"
+            data-toggle="modal"
+            data-target="#Delete">
+            delete
+          </button>
+         
+        </div>
+        <div class="card">
+          <a href="#worker3">
+            <img
+              src="https://i.pravatar.cc/150?img=12"
+              class="card-img-top"
+              data-toggle="modal"
+              data-target="#worker3"
+          /></a>
+          <div class="card-body">
+            <h5 class="card-title">Position</h5>
+            <p class="card-text">
+              MANAGER
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Name:  King</li>
+            <li class="list-group-item">Surname:  Croesus</li>
+            <li class="list-group-item">Email:  greatkingc@gmail.com</li>
+            <li class="list-group-item">cellphone:  (+27) 62 343 7387</li>
+            <li class="list-group-item">landline: (+11) 19 236 0921</li>
+          </ul>
+          <button 
+          type="button" class=" btn-primary"
+          data-toggle="modal"
+          data-target="#worker3">
+          more info
+        </button>
+          <button 
+          type="button" class=" btn-primary"
+          data-toggle="modal"
+          data-target="#Delete">
+          delete
+        </button>
+        </div>
+        <div class="card">
+          <a href="#worker4">
+            <img
+              src="https://i.pravatar.cc/150?img=8"
+              class="card-img-top"
+              data-toggle="modal"
+              data-target="#worker4"
+          /></a>
+          <div class="card-body">
+            <h5 class="card-title">Position</h5>
+            <p class="card-text">
+              ACCOUNTANT
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Name: Jerry</li>
+            <li class="list-group-item">Surname:  Hecker</li>
+            <li class="list-group-item">Email: heckjay@gmail.com</li>
+            <li class="list-group-item">cellphone:  (+27) 76 536 1029</li>
+            <li class="list-group-item">landline: (+11) 19 768 4501</li>
+          </ul>
+          <button 
+          type="button" class=" btn-primary"
+          data-toggle="modal"
+          data-target="#worker4">
+          more info
+        </button>
+          <button 
+          type="button" class=" btn-primary"
+          data-toggle="modal"
+          data-target="#Delete">
+          delete
+        </button>
+        </div>
+        <div class="card">
+          <a href="#worker5">
+            <img
+              src="https://i.pravatar.cc/150?img=32"
+              class="card-img-top"
+              data-toggle="modal"
+              data-target="#worker5"
+          /></a>
+          <div class="card-body">
+            <h5 class="card-title">Position</h5>
+            <p class="card-text">
+              LAWYER
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Name: Stephanie</li>
+            <li class="list-group-item">Surname:  Wee</li>
+            <li class="list-group-item">Email: steph12@gmail.com</li>
+            <li class="list-group-item">cellphone:  (+27) 71 564 8437</li>
+            <li class="list-group-item">landline: (+11) 19 552 0911</li>
+          </ul>
+          <button 
+          type="button" class=" btn-primary"
+          data-toggle="modal"
+          data-target="#worker5">
+          more info
+        </button>
+          <button 
+          type="button" class=" btn-primary"
+          data-toggle="modal"
+          data-target="#Delete">
+          delete
+        </button>
+        </div>
+        <div class="card">
+          <a href="#worker6">
+            <img
+              src="https://i.pravatar.cc/150?img=36"
+              class="card-img-top"
+              data-toggle="modal"
+              data-target="#worker6"
+          /></a>
+          <div class="card-body">
+            <h5 class="card-title">Position</h5>
+            <p class="card-text">
+              RECEPTIONIST
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Name: Tyra</li>
+            <li class="list-group-item">Surname:  Lee</li>
+            <li class="list-group-item">Email:  ladyt@gmail.com</li>
+            <li class="list-group-item">cellphone:  (+27) 69 527 9820</li>
+            <li class="list-group-item">landline: (+11) 19 012 0019</li>
+          </ul>
+          <button 
+          type="button" class=" btn-primary"
+          data-toggle="modal"
+          data-target="#worker6">
+          more info
+        </button>
+          <button 
+          type="button" class=" btn-primary"
+          data-toggle="modal"
+          data-target="#Delete">
+          delete
+        </button>
+        </div>
+      </main>
+      <div class="container">             
+        <h3>New User</h3>
+          <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">Sign Up</button>
+               <div class="modal fade" id="myModal" role="dialog">
+                 <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="alert alert-default">
+                         <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">SIGN UP</h3>
+                            <form action="/project.html" method="POST">
+               <h1>WELCOME</h1>
+              <p>please sign up</p>
+         
+          </form>
+          <div class="form-row">
+          <label for="username">username:</label>
+          <input type="text" class="form-control" id="uname" placeholder="enter username" name="username" required><br><br>
+              <div class="valid-feedback"></div>
+              <div class="invalid-feedback"></div>
+              <label for="first name">first name:</label>
+              <input type="text" class="form-control" id="uname" placeholder="enter first name" name="first name" required><br><br>
+              <div class="valid-feedback"></div>
+              <div class="invalid-feedback"></div>
+              <label for="last name">last name:</label>
+              <input type="text" class="form-control" id="uname" placeholder="enter last name" name="last name" required><br><br>
+              <div class="valid-feedback"></div>
+              <div class="invalid-feedback"></div>
+              <label for="last name">email address:</label>
+              <input type="text" class="form-control" id="uname" placeholder="enter email@gmail.com" name="email address" required><br><br>
+              <div class="valid-feedback"></div>
+              <div class="invalid-feedback"></div>
+              <label for="last name">cellphone number:</label>
+              <input type="text" class="form-control" id="uname" placeholder="enter cellphone number" name="cellphone number" required><br><br>
+              <div class="valid-feedback"></div>
+              <div class="invalid-feedback"></div>
+              <label for="last name">landline number:</label>
+              <input type="text" class="form-control" id="uname" placeholder="enter landline number" name="landline number" required><br><br>
+              <div class="valid-feedback"></div>
+              <div class="invalid-feedback"></div>
+              <label for="last name">home address:</label>
+              <input type="text" class="form-control" id="uname" placeholder="enter user home address" name="home address" required><br><br>
+              <div class="valid-feedback"></div>
+              <div class="invalid-feedback"></div>
+              <label for="last name">next of kin:</label>
+              <input type="text" class="form-control" id="uname" placeholder="enter name of next of kin" name="next of kin" required><br><br>
+              <div class="valid-feedback"></div>
+              <div class="invalid-feedback"></div>
+              <label for="last name">relationship with next of kin:</label>
+              <input type="text" class="form-control" id="uname" placeholder="enter relationship with next of kin " name="relationship with next of kin" required><br><br>
+              <div class="valid-feedback"></div>
+              <div class="invalid-feedback"></div>
+              <label for="last name">contact details:</label>
+              <input type="text" class="form-control" id="uname" placeholder="enter next of kin's cellphone number" name="contact details" required><br><br>
+              <div class="valid-feedback"></div>
+              <div class="invalid-feedback"></div>
+              <label for="email">email address:</label>
+              <input type="email" class="form-control" id="uname" placeholder="enter next of kin's email address" name="email address" required><br><br>
+              <div class="valid-feedback"></div>
+              <div class="invalid-feedback"></div>
+              <label for="user-pw">password:</label>
+              <input type="password" class="form-control" id="uname" placeholder="enter new-password" name="password" required>
+              <div class="valid-feedback"></div>
+              <div class="invalid-feedback"></div>
+              <input type="password" class="form-control" id="uname" placeholder="re-enter-password" name="password" required>
+              <div class="valid-feedback"></div>
+              <div class="invalid-feedback"></div>
+              <small id="user-pwHelp" class="form-text text-muted">your password is safe and secure.</small>
+              <br><br>
+              <button type="reset">Reset</button>
+              <button type="submit">Submit</button>
+            
+                                                    </div>
+                                                        </div>
+                                                            </div>
+                                                                </div>
+                                                                   </div>
+                                                                      </div>
+                                                                          </div>      
+                                                                                </div>
+                               
+       
+       </div>
+      <footer class="footer">
+        Created by POLY &trade;
+      </footer>
+    </div>
+
+    <div class="modal" id="worker1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Additional Details</h3>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+
+          <!--this is where the info  goes-->
+          <div class="modal-body">
+            <ol>
+              <li>User home address:  21 baker street,Cape Town</li>
+              <li>Next of kin's name: Samantha Edison</li>
+              <li>Relationship with next of kin: Husband</li>
+              <li>Next of kin's cellphone number :  (+27) 68 653 2783</li>
+              <li>Next of kin's email address: sammy@gmail.com</li>
+            </ol>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-btn-danger" data-dismiss="modal">
+              close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="worker2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Additional Details</h3>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+
+          <!--this is where the info  goes-->
+          <div class="modal-body">
+            <ol>
+              <li>User home address:  9530 Lakeshore,Pinelands</li>
+              <li>Next of kin's name: Michella Underwood</li>
+              <li>Relationship with next of kin: sister</li>
+              <li>Next of kin's cellphone number: (+27) 74 765 9006</li>
+              <li>Next of kin's email address:  kellie@gmail.com</li>
+            </ol>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-btn-danger" data-dismiss="modal">
+              close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="worker3">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Additional Details</h3>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+
+          <!--this is where the info  goes-->
+          <div class="modal-body">
+            <ol>
+              <li>User home address: 142 belgravia street, Clermont</li>
+              <li>Next of kin's name: Mellissa Croesus</li>
+              <li>Relationship with next of kin: Nephew</li>
+              <li>Next of kin's cellphone number: (+27) 79 085 4366</li>
+              <li>Next of kin's email address:  babygal@gmail.com</li>
+            </ol>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-btn-danger" data-dismiss="modal">
+              close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="worker4">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Additional Details</h3>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+
+          <!--this is where the info  goes-->
+          <div class="modal-body">
+            <ol>
+              <li>User home address:  43 Allendale road, Sutherland</li>
+              <li>Next of kin's name: Larry Hecker</li>
+              <li>Relationship with next of kin: Twin Brother</li>
+              <li>Next of kin's cellphone number: (+27) 83 893 6738</li>
+              <li>Next of kin's email address:  jerrythekid@gmail.com</li>
+            </ol>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-btn-danger" data-dismiss="modal">
+              close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="worker5">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Additional Details</h3>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+
+          <!--this is where the info  goes-->
+          <div class="modal-body">
+            <ol>
+              <li>User home address:  grafton and bunket street, Williston</li>
+              <li>Next of kin's name: Alan Drew</li>
+              <li>Relationship with next of kin:  Cousin</li>
+              <li>Next of kin's cellphone number: (+27) 82 720 7843</li>
+              <li>Next of kin's email address: adkboss@gmail.com</li>
+            </ol>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-btn-danger" data-dismiss="modal">
+              close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="worker6">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Additional Details</h3>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+
+          <!--this is where the info  goes-->
+          <div class="modal-body">
+            <ol>
+              <li>User home address:  123 Saunders, Stellenbosch</li>
+              <li>Next of kin's name: Queen Lee</li>
+              <li>Relationship with next of kin:  Sister</li>
+              <li>Next of kin's cellphone number: (+27) 67 832 6328</li>
+              <li>Next of kin's email address:  leequeen@gmail.com</li>
+            </ol>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-btn-danger" data-dismiss="modal">
+              close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="Delete">
+      <div class="modal-dialog">
+       <div class="modal-content">
+      <div class="modal-header">
+      <h3 class="modal-title">Are you Sure you want to delete</h3>
+    <button type="button" class="close" data-dismiss="modal">&times;
+       </button>
+           </div>
+                     <!--confirmation details-->
+<div class="modal-body">
+<button class="btn btn-danger">YES</button>
+<button class="btn btn-primary">NO</button>
+</div>
+ <div class="modal-footer">
+<button
+  type="button"
+  class="btn-btn-danger"
+ data-dismiss="modal">
+ close
+</button>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
