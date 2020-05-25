@@ -1,0 +1,62 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main {
+  flex-grow: 1;
+  display: flex;
+  padding: 2% 5%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 3px;
+  min-width: 200px;
+  background: linear-gradient(#ce08b3, #4908c4);
+}
+
+.nav {
+  padding: 30px;
+  background-color: yellow;
+  background-image: url(https://tse2.mm.bing.net/th?id=OIP.-g0V6ZmLtzsbwb8Mc_zCLAHaE7&pid=Api&P=0&w=281&h=188);
+}
+.navbar-nav {
+  background-color: rgb(212, 0, 255);
+}
+.footer {
+  background-color: violet;
+}
+
+.card {
+  background: linear-gradient(#000000, #000000);
+  border: 1px solid black;
+  width: 300px;
+  border-radius: 10%;
+}
+.card-img-top {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 10%;
+}
+p {
+  color: #4908c4;
+}
+h5 {
+  color: white;
+}
+.modal-body {
+  background: linear-gradient(#ce08b3, #4908c4);
+}
+
+.button {
+  align-items: flex-end;
+  align-content: flex-end;
+  align-self: flex-end;
+}
+.form-row {
+  background-color: yellow;
+}
+.container {
+background: linear-gradient(#ce08b3, #4908c4);
+}
+body{background-image: url(https://tse2.mm.bing.net/th?id=OIP.uUBmT-1TZKYRMwybILJRlAHaEK&pid=Api&P=0&w=275&h=156);}
